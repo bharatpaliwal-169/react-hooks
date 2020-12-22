@@ -1,13 +1,11 @@
 import React from 'react';
-// import ObjectState from './components/ObjectState';
-import Counter from './components/Counter';
-
+import FetchData from './components/FetchData';
+import Header from './components/Header'
 function App() {
   return (
-    <div className="Container-fluid">
-      <div className='row text-center'>
-          <Counter/>
-      </div>
+    <div className="">
+            <Header />
+            <FetchData />
     </div>
   );
 }
