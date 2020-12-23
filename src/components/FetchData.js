@@ -18,8 +18,6 @@ export default function FetchData() {
   },[]);
   return (
     <React.Fragment>
-        {/* <h2>Fetching Data</h2>
-        <h2>GitHub Users</h2> */}
         <div className='container-fluid'>
           <div className='row'>
               {users.map((user) => {
