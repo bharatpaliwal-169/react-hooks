@@ -5,10 +5,10 @@ const Modal = ({modalContent,closeModal})=>{
   useEffect(() => {
     setTimeout(()=>{
       closeModal()
-    },2000)
+    },2500)
   })
   return (
-    <div className='alert alert-warning ' role="alert">
+    <div className='alert alert-warning' role="alert">
       {modalContent}
     </div>
   )

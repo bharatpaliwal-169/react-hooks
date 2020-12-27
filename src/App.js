@@ -1,9 +1,9 @@
 import React from 'react';
-import Index from './components/useReducer';
+import Example from './components/customHooks';
 function App() {
   return (
     <div className="container-fluid">
-            <Index />
+            <Example />
     </div>
   );
 }
